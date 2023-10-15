@@ -3,60 +3,51 @@ title: Minds Beyond Technical Documentation
 layout: hextra-home
 ---
 
-This is the landing page.
-
-## Explore
-
-{{< cards >}}
-  {{< card link="databricks" title="Databricks" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-{{< /cards >}}
-
 
 {{< hextra/hero-badge >}}
   <div class="w-2 h-2 rounded-full bg-primary-400"></div>
-  <span>Free, open source</span>
+  <span>Automation codified</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
 <div class="mt-6 mb-6">
 {{< hextra/hero-headline >}}
-  Build modern websites&nbsp;<br class="sm:block hidden" />with Markdown and Hugo
+  Automate&nbsp;<br class="sm:block hidden" />your data platforms
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="mb-12">
 {{< hextra/hero-subtitle >}}
-  Fast, batteries-included Hugo theme&nbsp;<br class="sm:block hidden" />for creating beautiful static websites
+  Fast track &nbsp;<br class="sm:block hidden" />for your data platform such as Databricks, Snowflake, Prefect and more...
 {{< /hextra/hero-subtitle >}}
 </div>
 
 <div class="mb-6">
-{{< hextra/hero-button text="Get Started" link="docs" >}}
+{{< hextra/hero-button text="Get Started" link="about" >}}
 </div>
 
 <div class="mt-6"></div>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Fast and Full-featured"
-    subtitle="Simple and easy to use, yet powerful and feature-rich."
+    title="Databricks"
+    subtitle="End to end workspace automation with vnet injection, workspace creation, cluster creation, job creation, notebook execution and more..."
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
     image="images/hextra-doc.webp"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="Markdown is All You Need"
-    subtitle="Compose with just Markdown. Enrich with Shortcode components."
+    title="Unity Catalog"
+    subtitle="Manage your Lakehouse with ease. Easily create and manage your catalogs, external tables, roles, and permissions."
     class="aspect-auto md:aspect-[1.1/1] max-lg:min-h-[340px]"
     image="images/hextra-markdown.webp"
     imageClass="top-[40%] left-[36px] w-[180%] sm:w-[110%] dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="Full Text Search"
-    subtitle="Built-in full text search with FlexSearch, no extra setup required."
+    title="dBt - Data Build Tool"
+    subtitle="Modularize your data pipelines with dBt. Easily create and manage your data pipelines with dBt."
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
     image="images/hextra-search.webp"
     imageClass="top-[40%] left-[36px] w-[110%] sm:w-[110%] dark:opacity-80"
