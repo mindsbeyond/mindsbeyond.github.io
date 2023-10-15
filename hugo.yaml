@@ -21,18 +21,21 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 1
+    - name: Databricks
+      pageRef: /docs
+      weight: 2
     - name: About
       pageRef: /about
-      weight: 2
+      weight: 3
     - name: Blog
       pageRef: /blog
-      weight: 3
-    - name: Search
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
     - name: GitHub
-      weight: 5
+      weight: 6
       url: "https://github.com/mindsbeyond/mindsbeyond.github.io"
       params:
         icon: github
