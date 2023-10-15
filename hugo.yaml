@@ -45,7 +45,10 @@ menu:
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: images/mindsbeyond-logo-no-bg.webp
+      dark: images/mindsbeyond-logo-no-bg.webp
 
   footer:
     displayCopyright: false
