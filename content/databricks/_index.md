@@ -1,17 +1,18 @@
 ---
-title: My Site
-toc: false
+title: Documentation Strategy
+next: first-page
 ---
 
-This is the landing page.
+This is a demo of the theme's documentation layout.
 
-## Explore
+## Hello, World!
 
-{{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-{{< /cards >}}
+```go {filename="main.go"}
+package main
 
-## Documentation
+import "fmt"
 
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+func main() {
+    fmt.Println("Hello, World!")
+}
+```

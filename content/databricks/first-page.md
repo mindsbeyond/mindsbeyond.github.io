@@ -2,7 +2,7 @@
 title: Demo Page
 type: docs
 prev: /
-next: docs/folder/
+next: databricks/folder/
 ---
 
 A simple demo page.
