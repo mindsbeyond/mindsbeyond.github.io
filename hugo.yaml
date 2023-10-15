@@ -19,7 +19,7 @@ markup:
 menu:
   main:
     - name: Databricks
-      pageRef: /docs
+      pageRef: /databricks
       weight: 1
     - name: About
       pageRef: /about
