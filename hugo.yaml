@@ -49,6 +49,8 @@ params:
     logo:
       path: images/mindsbeyond-logo-no-bg.webp
       dark: images/mindsbeyond-logo-no-bg.webp
+      width: 40
+      height: 40
 
   footer:
     displayCopyright: false
