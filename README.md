@@ -1,15 +1,36 @@
-# Overview
-Every technical team/org requires a technical documentation site. This repo is a template for a technical documentation site using Hugo and the Hextra theme.
+# Minds Beyond
 
-CLone this site and host it to github pages or any other hosting service. We are using this site to document our projects and share our knowledge with the community.
+Static one-page site for Minds Beyond, served at [mindsbeyond.si](https://mindsbeyond.si).
 
+- `index.html`: the whole site, with inline CSS. No build step.
+- `favicon.svg`: the logo mark.
+- `CNAME`: the custom domain.
 
-## Hugo Theme Documentation 
+Edit `index.html` and push to `main`. The workflow in `.github/workflows/pages.yaml` publishes it.
 
-Refer to the [Hugo documentation](https://gohugo.io/documentation/) for more information about how to use this theme in your Hugo project.
+## GitHub Pages
 
-Refer to the [Hextra Hugo Theme](https://github.com/imfing/hextra-starter-template) for more information about how to use this theme in your Hugo project.
+Repo: `mindsbeyond/mindsbeyond.github.io` (public).
 
-## Acknowledgements
+1. Settings > Pages > Build and deployment > Source: **GitHub Actions**.
+2. Custom domain: `mindsbeyond.si`.
+3. Tick **Enforce HTTPS** once DNS resolves and the certificate is issued.
 
-We would like to thank [Xin](https://github.com/imfing) for their contributions to this project. Their work on [Hextra Hugo Theme](hhttps://github.com/imfing/hextra) was instrumental in helping us achieve our goals. We are grateful for their dedication to the open-source community and for sharing their expertise with us.
+Optional: verify the domain under your GitHub account (or org) settings > Pages. This adds one TXT record and stops anyone else from claiming the domain.
+
+## DNS (Regery)
+
+| Type  | Host  | Value                   |
+|-------|-------|-------------------------|
+| A     | `@`   | `185.199.108.153`       |
+| A     | `@`   | `185.199.109.153`       |
+| A     | `@`   | `185.199.110.153`       |
+| A     | `@`   | `185.199.111.153`       |
+| CNAME | `www` | `mindsbeyond.github.io` |
+
+Check with:
+
+```sh
+dig +short mindsbeyond.si A
+dig +short www.mindsbeyond.si
+```
